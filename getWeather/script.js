@@ -99,7 +99,7 @@ function render() {
 
 async function getWeather(city) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${city}&lang=ru&days=4`)
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=${KEY}&q=${city}&lang=ru&days=4`)
         if (!response.ok) {
             throw new Error(`Ошибка ${response.status}`)
         }
