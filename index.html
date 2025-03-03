@@ -1,7 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+    <title>getWeather</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <main class="main-content">
+        <header class="header">
+            <h1 class="header__logo"><a href="index.html" class="header__logo-text">getWeather</a></h1>
+            <div class="header-container">
+                <input type="text" class="header__search" placeholder="Введите город">
+                <button class="header__button">Поиск</button>    
+            </div>
+        </header>
+
+        <section class="weather hidden">
+            <div class="weather__main-info">
+                <div class="weather__main-info__content">
+                    <h2 class="weather__main-info__city">wwwwww</h2>
+                    <div class="weather__main-info__header">
+                    <p class="weather__main-info__date">wwwwww</p>
+                    <p class="weather__main-info__grad">50</p>
+                    <p class="weather__main-info__feels"></p>
+                <p class="weather__main-info__wind"></p>
+                <p class="weather__main-info__humidity"></p>
+                </div>
+                <h3 class="weather__main-info__weather-now">wwwwww</h3>
+                <p class="weather__main-info__feels"></p>
+                <p class="weather__main-info__wind"></p>
+                <p class="weather__main-info__humidity"></p>
+
+                </div>
+                
+                <img src="icons/rain.svg" alt="" class="weather__main-info__image svg-image">
+
+            </div>
+
+
+            <div class="weather-info">
+                
+                    <div class="weather-week ">
+                        
+                            <div class="weather-week__card">
+                                <div class="weather-week__card-header">
+                                    <div class="weather-week__container">
+                                        <p class="weather-week__card-date"></p>
+                                        <p class="weather-week__card-grad"></p>
+                                    </div>
+                                    <p class="weather-week__card-weather"></p>
+                                </div>
+                                <img src="icons/thunder.svg" alt="" class="weather-week__card-image">
+                            </div>
+
+
+
+                            <div class="weather-week__card">
+                                <div class="weather-week__card-header">
+                                    <div class="weather-week__container">
+                                        <p class="weather-week__card-date"></p>
+                                        <p class="weather-week__card-grad"></p>
+                                    </div>
+                                    <p class="weather-week__card-weather"></p>
+                                </div>
+                                <img src="icons/thunder.svg" alt="" class="weather-week__card-image">
+                            </div>
+                            <div class="weather-week__card">
+                                <div class="weather-week__card-header">
+                                    <div class="weather-week__container">
+                                        <p class="weather-week__card-date"></p>
+                                        <p class="weather-week__card-grad"></p>
+                                    </div>
+                                    <p class="weather-week__card-weather"></p>
+                                </div>
+                                <img src="icons/thunder.svg" alt="" class="weather-week__card-image">
+                            </div>
+                        
+                        
+                        
+                    </div>
+    
+                
+            </div>
+                    
+                    
+
+
+        </section>
+    </main>
 </body>
 </html>
